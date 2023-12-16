@@ -138,5 +138,5 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_SSL = False
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = '' #Inserta tu correo de gmail
-EMAIL_HOST_PASSWORD = '' #Inserta tu contraseña de tu correo
+EMAIL_HOST_USER = 'imthewalrus32@gmail.com' #Inserta tu correo de gmail
+EMAIL_HOST_PASSWORD = 'shinigami223' #Inserta tu contraseña de tu correo
