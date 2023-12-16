@@ -31,11 +31,11 @@
         {% endif %}
         <!-- Menu -->
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="{% url 'shop:home_page' %}" class="nav-link px-2 text-white">Tienda</a></li>
+          <li><a href="{% url 'shop:home_page' %}" class="nav-link px-2 text-black">Tienda</a></li>
           <!-- <li><a href="#" class="nav-link px-2 text-dark">Shop</a></li> -->
           <!-- categories dropdown -->
           <div class="dropdown text-end">
-            <a href="#" class=" mt-2 me-1 ms-1 text-white d-block link-with text-decoration-none dropdown-toggle"id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
+            <a href="#" class=" mt-2 me-1 ms-1 text-black d-block link-with text-decoration-none dropdown-toggle"id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
             <ul class="dropdown-menu" aria-labelledby="dropdownUser1" >
               {% if categories %}
                 {% for category in categories %}
@@ -62,7 +62,7 @@
         {% if request.user.is_authenticated %}
         <!-- user profile dropdown -->
         <div class="dropdown text-end">
-          <a href="#" class="btn btn-primary text-white me-4 d-block link-dark text-decoration-none dropdown-toggle"id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">🙍‍♂️ Perfil</a>
+          <a href="#" class="btn btn-primary text-black me-4 d-block link-dark text-decoration-none dropdown-toggle"id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">🙍‍♂️ Perfil</a>
           <ul class="dropdown-menu" aria-labelledby="dropdownUser1">
             <li><a href="{% url 'cart:show_cart' %}" <a class="dropdown-item"> 🛒 Carrito</a></li>
             <li><a href="{% url 'shop:favorites' %}" <a class="dropdown-item">❤️ Favoritos</a></li>
